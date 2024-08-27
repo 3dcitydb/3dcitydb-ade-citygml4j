@@ -38,7 +38,7 @@ import org.citygml4j.model.module.citygml.CityGMLVersion;
 import javax.xml.bind.JAXBElement;
 
 public class CityDBADEMarshaller implements ADEMarshaller {
-   private ADEMarshaller marshaller;
+    private ADEMarshaller marshaller;
 
     @Override
     public void setADEMarshallerHelper(ADEMarshallerHelper helper) {
